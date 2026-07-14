@@ -1,4 +1,4 @@
-# Ignore Python virtual environment
+# Virtual environment
 .venv/
 venv/
 
@@ -6,6 +6,9 @@ venv/
 __pycache__/
 *.pyc
 *.pyo
+
+# VS Code
+.vscode/
 
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints/

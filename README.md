@@ -110,9 +110,19 @@ Stock-Price-Prediction/
 │   ├── evaluation_metrics.csv
 │   └── model_comparison.csv
 │
-├── .gitignore
+├── src/
+│   ├── __init__.py
+│   ├── data_preprocessing.py
+│   ├── exploratory_data_analysis.py
+│   ├── feature_engineering.py
+│   ├── model_training.py
+│   ├── evaluation.py
+│   └── prediction.py
+│
+├── main.py
 ├── README.md
-└── requirements.txt
+├── requirements.txt
+└── .gitignore
 ```
 ## 🚀 How to Run
 
@@ -134,7 +144,13 @@ cd Stock-Price-Prediction
 pip install -r requirements.txt
 ```
 
-### 4. Run all notebook cells sequentially
+### 4. Run the Python project
+
+```bash
+python main.py
+```
+
+### 5. Explore the complete workflow (Optional)
 
 Open the notebook:
 
@@ -142,7 +158,7 @@ Open the notebook:
 notebooks/Stock_Price_Prediction_ML_Internship.ipynb
 ```
 
-Execute all cells from top to bottom to:
+Run all cells sequentially to:
 
 - Load the dataset
 - Perform data preprocessing
