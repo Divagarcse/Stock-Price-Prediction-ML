@@ -93,43 +93,64 @@ Evaluation Metrics:
 
 ## 📁 Project Structure
 
-```text
 Stock-Price-Prediction/
 │
 ├── data/
+│   └── raw/
+│       └── aapl.us.txt
+│
 ├── models/
+│   └── best_stock_price_model.pkl
+│
 ├── notebooks/
+│   └── Stock_Price_Prediction_ML_Internship.ipynb
+│
 ├── results/
+│   ├── evaluation_metrics.csv
+│   └── model_comparison.csv
+│
 ├── .gitignore
 ├── README.md
-├── requirements.txt
-└── main.py
-```
-
+└── requirements.txt
 ---
 
 ## 🚀 How to Run
 
-1. Clone the repository.
+### 1. Clone the repository
 
 ```bash
 git clone https://github.com/Divagarcse/Stock-Price-Prediction.git
 ```
 
-2. Install the required packages.
+### 2. Navigate to the project directory
+
+```bash
+cd Stock-Price-Prediction
+```
+
+### 3. Install the required dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open the notebook.
+### 4. Run all notebook cells sequentially
+
+Open the notebook:
 
 ```text
 notebooks/Stock_Price_Prediction_ML_Internship.ipynb
 ```
 
-4. Run all cells.
+Execute all cells from top to bottom to:
 
+- Load the dataset
+- Perform data preprocessing
+- Generate technical indicators and features
+- Train the machine learning models
+- Compare model performance
+- Evaluate the best model
+- Predict the next trading day's closing price
 ---
 
 ## 📌 Results
