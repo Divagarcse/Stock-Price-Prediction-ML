@@ -93,6 +93,7 @@ Evaluation Metrics:
 
 ## 📁 Project Structure
 
+```plaintext
 Stock-Price-Prediction/
 │
 ├── data/
@@ -112,8 +113,7 @@ Stock-Price-Prediction/
 ├── .gitignore
 ├── README.md
 └── requirements.txt
----
-
+```
 ## 🚀 How to Run
 
 ### 1. Clone the repository
