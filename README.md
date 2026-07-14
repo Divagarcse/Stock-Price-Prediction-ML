@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 📈 Stock Price Prediction using Machine Learning
 
 ## 📌 Project Overview
