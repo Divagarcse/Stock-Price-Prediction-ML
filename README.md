@@ -150,7 +150,7 @@ pip install -r requirements.txt
 python main.py
 ```
 
-### 5. Explore the complete workflow (Optional)
+### 5. Explore the complete workflow 
 
 If you want to understand how the model was built, open the notebook:
 
