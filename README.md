@@ -152,7 +152,7 @@ python main.py
 
 ### 5. Explore the complete workflow (Optional)
 
-Open the notebook:
+If you want to understand how the model was built, open the notebook:
 
 ```text
 notebooks/Stock_Price_Prediction_ML_Internship.ipynb
@@ -160,13 +160,28 @@ notebooks/Stock_Price_Prediction_ML_Internship.ipynb
 
 Run all cells sequentially to:
 
-- Load the dataset
-- Perform data preprocessing
-- Generate technical indicators and features
-- Train the machine learning models
+- Load the historical Apple stock dataset
+- Perform data preprocessing and cleaning
+- Conduct exploratory data analysis (EDA)
+- Generate technical indicators and lag features
+- Train multiple machine learning models
 - Compare model performance
-- Evaluate the best model
+- Evaluate the best-performing model
 - Predict the next trading day's closing price
+
+
+### 6. Run Individual Modules 
+
+Each module can be executed independently for testing and understanding the complete machine learning pipeline:
+
+```bash
+python -m src.data_preprocessing
+python -m src.exploratory_data_analysis
+python -m src.feature_engineering
+python -m src.model_training
+python -m src.evaluation
+python -m src.prediction
+```
 ---
 
 ## 📌 Results
