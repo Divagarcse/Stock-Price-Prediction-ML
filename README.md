@@ -94,7 +94,7 @@ Evaluation Metrics:
 ## 📁 Project Structure
 
 ```plaintext
-Stock-Price-Prediction/
+Stock-Price-Prediction-ML/
 │
 ├── data/
 │   └── raw/
@@ -129,13 +129,13 @@ Stock-Price-Prediction/
 ### 1. Clone the repository
 
 ```bash
-git clone https://github.com/Divagarcse/Stock-Price-Prediction.git
+git clone https://github.com/Divagarcse/Stock-Price-Prediction-ML.git
 ```
 
 ### 2. Navigate to the project directory
 
 ```bash
-cd Stock-Price-Prediction
+cd Stock-Price-Prediction-ML
 ```
 
 ### 3. Install the required dependencies
